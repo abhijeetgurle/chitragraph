@@ -1,0 +1,90 @@
+@import "./variables.scss";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    .heading {
+      font-size: 3rem;
+      color: $highlightFont;
+      font-weight: 700;
+      display: none;
+    }
+
+    .subText {
+      font-size: 1.5rem;
+      color: #ececec;
+      font-weight: 300;
+      display: none;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      overflow: hidden;
+
+      .heading {
+        display: flex;
+      }
+    }
+  }
+
+  .preWedding {
+    background-image: url("https://cdn.myportfolio.com/079f56cd-056f-4eed-9dc7-65755f153836/79dacf7c-7b04-4d94-be4c-3e9b3281d15c_rwc_44x0x6615x3749x4096.jpg?h=6985e4b26edf40c648fcbcd398c09026");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+
+    &:hover {
+      background-image: linear-gradient(#00000086, #00000080),
+        url("https://cdn.myportfolio.com/079f56cd-056f-4eed-9dc7-65755f153836/79dacf7c-7b04-4d94-be4c-3e9b3281d15c_rwc_44x0x6615x3749x4096.jpg?h=6985e4b26edf40c648fcbcd398c09026");
+    }
+  }
+
+  .wedding {
+    background-image: url("https://cdn.myportfolio.com/079f56cd-056f-4eed-9dc7-65755f153836/79dacf7c-7b04-4d94-be4c-3e9b3281d15c_rwc_44x0x6615x3749x4096.jpg?h=6985e4b26edf40c648fcbcd398c09026");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background-image: linear-gradient(#00000086, #00000080),
+        url("https://cdn.myportfolio.com/079f56cd-056f-4eed-9dc7-65755f153836/79dacf7c-7b04-4d94-be4c-3e9b3281d15c_rwc_44x0x6615x3749x4096.jpg?h=6985e4b26edf40c648fcbcd398c09026");
+    }
+  }
+
+  .portrait {
+    background-image: url("https://cdn.myportfolio.com/079f56cd-056f-4eed-9dc7-65755f153836/79dacf7c-7b04-4d94-be4c-3e9b3281d15c_rwc_44x0x6615x3749x4096.jpg?h=6985e4b26edf40c648fcbcd398c09026");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background-image: linear-gradient(#00000086, #00000080),
+        url("https://cdn.myportfolio.com/079f56cd-056f-4eed-9dc7-65755f153836/79dacf7c-7b04-4d94-be4c-3e9b3281d15c_rwc_44x0x6615x3749x4096.jpg?h=6985e4b26edf40c648fcbcd398c09026");
+    }
+  }
+
+  .modeling {
+    background-image: url("https://cdn.myportfolio.com/079f56cd-056f-4eed-9dc7-65755f153836/79dacf7c-7b04-4d94-be4c-3e9b3281d15c_rwc_44x0x6615x3749x4096.jpg?h=6985e4b26edf40c648fcbcd398c09026");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background-image: linear-gradient(#00000086, #00000080),
+        url("https://cdn.myportfolio.com/079f56cd-056f-4eed-9dc7-65755f153836/79dacf7c-7b04-4d94-be4c-3e9b3281d15c_rwc_44x0x6615x3749x4096.jpg?h=6985e4b26edf40c648fcbcd398c09026");
+    }
+  }
+}
