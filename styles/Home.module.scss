@@ -1,0 +1,30 @@
+@import "./variables.scss";
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://cdn.myportfolio.com/079f56cd-056f-4eed-9dc7-65755f153836/79dacf7c-7b04-4d94-be4c-3e9b3281d15c_rwc_44x0x6615x3749x4096.jpg?h=6985e4b26edf40c648fcbcd398c09026");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .highlight {
+      display: flex;
+      font-size: 4rem;
+      font-weight: 300;
+      color: $highlightFont;
+    }
+
+    .btnContainer {
+      margin-top: 1rem;
+    }
+  }
+}
