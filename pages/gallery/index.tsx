@@ -1,5 +1,6 @@
+import AppNavbar from "@/components/AppNavbar";
 import Head from "next/head";
-import styles from "@/styles/Gallery.module.scss";
+import styles from "./Gallery.module.scss";
 
 export default function Gallery() {
   return (
@@ -10,6 +11,7 @@ export default function Gallery() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <AppNavbar />
       <main className={styles.main}>
         <div className={`${styles.section} ${styles.preWedding}`}>
           <div className={styles.heading}>PRE-WEDDING</div>

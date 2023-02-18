@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+.link {
+  text-decoration: none;
+  color: $linkColor;
+
+  &:hover {
+    color: $highlightFont;
+  }
+}
+
+.active {
+  color: $highlightFont;
+}

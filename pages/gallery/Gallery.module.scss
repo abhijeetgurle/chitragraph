@@ -1,4 +1,4 @@
-@import "./variables.scss";
+@import "../../styles/variables.scss";
 
 .main {
   display: flex;
@@ -23,7 +23,7 @@
     }
 
     .subText {
-      font-size: 1.5rem;
+      font-size: 1rem;
       color: #ececec;
       font-weight: 300;
       display: none;
@@ -34,6 +34,10 @@
       overflow: hidden;
 
       .heading {
+        display: flex;
+      }
+
+      .subText {
         display: flex;
       }
     }
