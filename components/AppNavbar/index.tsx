@@ -26,6 +26,16 @@ export default function AppNavbar() {
             </Nav.Link>
             <Nav.Link>
               <Link
+                href="/gallery"
+                className={`${styles.link} ${
+                  router.pathname === "/gallery" ? styles.active : ""
+                }`}
+              >
+                Gallery
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link
                 href="/about"
                 className={`${styles.link} ${
                   router.pathname === "/about" ? styles.active : ""
@@ -36,12 +46,12 @@ export default function AppNavbar() {
             </Nav.Link>
             <Nav.Link>
               <Link
-                href="/gallery"
+                href="/contact-me"
                 className={`${styles.link} ${
-                  router.pathname === "/gallery" ? styles.active : ""
+                  router.pathname === "/contact-me" ? styles.active : ""
                 }`}
               >
-                Gallery
+                Contact Me
               </Link>
             </Nav.Link>
           </Nav>
