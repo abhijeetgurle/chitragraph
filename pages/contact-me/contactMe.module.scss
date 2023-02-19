@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  background-color: $backgroundColor;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+
+    .heading {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      .mainText {
+        color: $highlightFont;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+
+      .subText {
+        color: $subTextColor;
+        font-size: 1.3rem;
+        font-weight: 300;
+      }
+    }
+
+    .form {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+
+      .label {
+        color: $highlightFont;
+      }
+    }
+  }
+}
